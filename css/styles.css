@@ -406,6 +406,7 @@ button:focus {outline:0;}
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
+    font-weight: 700;
     color: #334257;
     letter-spacing: 1.5px;
     margin: 10px 0 25px 0;
@@ -414,4 +415,300 @@ button:focus {outline:0;}
 
 .sec4 a:hover{
     color: #316b83;
+}
+
+/* -------------------------------- sec5 ------------------------------- */
+
+.sec5{
+    float: left;
+	margin-top: 30px;
+	background: #fcfcfd;
+	z-index: 1;
+	width: 100%;
+    overflow-x: hidden;
+}
+
+.section-title{
+	float: left;
+	/* position: relative; */
+	width: 100%;
+    margin-top: 30px;
+	padding-bottom: 40px; 
+}
+
+.section-title h2 {
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #334257;
+    letter-spacing: 1.5px;
+	font-weight: 800;
+	/* position: relative; */
+}
+.section-title p{
+    text-align: center;
+	font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+	line-height: 15px;
+	max-width: 550px;
+	margin: 0 auto;
+}
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+.testi-item {
+	transition: all .3s ease-in-out;
+	transform: scale(0.9);
+	opacity: 0.9;
+}
+.testimonials-text {
+	padding: 75px 50px 75px;
+	overflow:hidden;
+	background: #f5f6fa;
+	border:1ps solid #f1f1f1;
+	border-radius: 10px;
+	transition: all .3s ease-in-out;
+}
+.testimonials-text-after{
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	position: absolute;
+	color: #ccc;
+	opacity: .3;
+	font-size: 35px;
+	transition: all 400ms linear;
+	bottom: 25px;
+	right: 30px;
+}
+.testimonials-text-before{
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	position: absolute;
+	color: #ccc;
+	opacity: .3;
+	font-size: 35px;
+	transition: all 400ms linear;
+	top: 25px;
+	left: 30px;
+}
+.testimonials-text .listing-rating{
+	float: none;
+	display: inline-block;
+	margin-bottom: 12px;
+}
+.listing-rating i{
+	color: #6d8299;
+}
+.testimonials-avatar h3{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #334257;
+    letter-spacing: 1.5px;
+	font-weight: 800;
+}
+.testimonials-avatar h4{
+	 font-weight:700;
+	 font-size:14px;
+	 font-family: 'Raleway', sans-serif;
+     color: #548ca8;
+     letter-spacing: 1.5px;
+}
+.testimonials-carousel .swiper-slide{
+	padding: 30px 0;
+}	 
+.testi-avatar{
+	position: absolute;
+	left: 50%;
+	top: -30px;
+	width: 90px;
+	height: 90px;
+	margin-left: -45px;
+	z-index: 20;
+}
+.testi-avatar img{
+	width: 90px;
+	height: 90px;
+	float: left;
+	border-radius: 100%;
+	border:6px solid #fff;
+	box-shadow: 0 9px 26px rgba(58, 87,135,0.1);
+}
+.swiper-slide-active .testimonials-text {
+	background: #fff;
+	box-shadow: 0 9px 26px rgba(58, 87,135,0.1);
+}
+.testimonials-text p{
+	color:#316b83 ;
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+	line-height: 24px;
+    letter-spacing: 1.5px;
+	padding-bottom: 10px;
+	font-weight: 500;
+}
+.text-link{
+    display: none;
+	position: absolute;
+	bottom:0;
+	padding: 15px 0;
+	border-radius: 10px 10px 0 0;
+	background: #f9f9f9;
+	border:1px solid #eee;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.03);
+	left: 50%;
+	width: 200px;
+	margin-left: -100px;
+}
+.swiper-slide-active .testi-item{
+	opacity: 1;
+	transform: scale(1.0);
+}
+.tc-pagination{
+    text-align: center;
+	/* float: left; */
+	margin-top: 10px;
+	width: 100% !important;
+}
+.tc-pagination_wrap {
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+	width: 100%;
+}
+.tc-pagination2{
+	float: none;
+	display: inline-block;
+	padding: 14px 0;
+	background: #fff;
+	border-radius: 30px;
+	min-width: 250px;
+	border-bottom: 0;
+}
+.tc-pagination .swiper-pagination-bullet, .tc-pagination2.swiper-pagination-bullet{
+	opacity: 1;
+	background: #384f95;
+	margin:0 2px;
+	width: 10px;
+	height: 10px;
+	transition: all 300ms ease-in-out;
+}
+
+/* --------------------------- footer ---------------------- */
+
+footer{
+    background-image:linear-gradient(to bottom, rgba(49,107,131, 0.32), rgba(49,107,131, 1)),
+    url('../img/footer/hunters-race-MYbhN8KaaEc-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin : 25px auto 0 auto;
+}
+.footer-inner{
+    margin: 0 auto;
+    max-width: 1100px;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-box{
+    width: 330px;
+    height: 250px;
+    /* background-color: yellowgreen; */
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-box img{
+    height: 85px;
+    margin-bottom: 15px;
+}
+.footer-box p{
+    color:whitesmoke ;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 24px;
+    letter-spacing: 1.5px;
+	padding-bottom: 10px;
+	font-weight: 700;
+}
+.footer-box h2{
+    color:whitesmoke ;
+	font-size: 25px;
+	font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.5px;
+	padding-bottom: 10px;
+	font-weight: 700;
+}
+.footer-box a{
+    text-decoration: none;
+    color:whitesmoke ;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 24px;
+    letter-spacing: 1.5px;
+	padding-bottom: 10px;
+	font-weight: 700;
+    transition: .2s ease-in-out;
+    margin-bottom: 6px;
+}
+.footer-box a:hover{
+    color: #548ca8;
+}
+
+.footer-link{
+    font-size: 14px !important;
+}
+.down{
+    text-align: center;
+    padding-bottom: 15px ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14PX;
+    letter-spacing: 1.5px;
+    color: whitesmoke;
+}
+
+/* -------------------------- about us page ----------------------- */
+
+.abt-sec1{
+    background-color: yellowgreen;
+    min-height: 600px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+/* -------------------------- services page ----------------------- */
+
+.ser-sec1{
+    background-color: yellowgreen;
+    min-height: 600px;
+    margin-top: 90px;
+}
+
+/* -------------------------- team page ----------------------- */
+
+.te-sec1{
+    background-color: yellowgreen;
+    min-height: 600px;
+    margin-top: 90px;
+}
+
+/* -------------------------- contact us page ----------------------- */
+
+.cu-sec1{
+    background-color: yellowgreen;
+    min-height: 600px;
+    margin-top: 90px;
 }
