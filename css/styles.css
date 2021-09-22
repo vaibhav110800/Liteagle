@@ -15,6 +15,7 @@ html, body {
     width: 100%;
     /* overflow-x: hidden; */
     overflow: visible;
+    /* overflow-y: scroll; */
 }
 
 * {
@@ -682,33 +683,376 @@ footer{
 /* -------------------------- about us page ----------------------- */
 
 .abt-sec1{
-    background-color: yellowgreen;
-    min-height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-image:linear-gradient(to bottom, rgba(49,107,131, 0.32), rgba(49,107,131, 1)),
+    url('../img/about-us-page/ruthson-zimmerman-Ws4wd-vJ9M0-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 400px;
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 90px;
+    display: flex;
+}
+.abt-sec1-left{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.abt-sec1-left h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    color: whitesmoke;
+    letter-spacing: 1.5px;
+	font-weight: 800;
+    padding-left: 8%;
+}
+.abt-sec1-left p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    letter-spacing: 1.5px;
+	font-weight: 800;
+    padding-left: 8%;
+}
+.abt-sec1-right{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.abt-sec1-right img{
+    width: 400px;
+    transform: translateX(10%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.abt-sec2{
+    max-width: 1100px;
+    margin: 30px auto;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 6px 12px;
+}
+.abt-sec2-box{
+    display: flex;
+    min-height: 240px;
+}
+.abt-sec2-box-left{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abt-sec2-box1-left{
+    background-color: #548ca8;
+}
+.abt-sec2-box2-left{
+    background-color: #316b83;
+}
+.abt-sec2-box3-left{
+    background-color: #6d8299;
+}
+.abt-sec2-box-left p{
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: whitesmoke;
+    letter-spacing: 1.5px;
+	font-weight: 800;
+}
+.abt-sec2-box-right{
+    min-height: 200px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.abt-sec2-box1-right{
+    background-image:linear-gradient(to bottom, rgba(49,107,131, 0.32), rgba(49,107,131, .8)),
+    url('../img/about-us-page/box1.jpg');
+}
+.abt-sec2-box2-right{
+    background-image:linear-gradient(to bottom, rgba(49,107,131, 0.32), rgba(49,107,131, .8)),
+    url('../img/about-us-page/box2.jpg');
+}
+.abt-sec2-box3-right{
+    background-image:linear-gradient(to bottom, rgba(49,107,131, 0.32), rgba(49,107,131, .8)),
+    url('../img/about-us-page/box3.jpg');
+}
+
+.abt-sec3{
+    max-width: 1200px;
+    min-height: 400px;
+    margin: 30px auto;
+    display: flex;
+}
+.abt-sec3-left{
+    /* background-color: yellowgreen; */
+    flex-basis: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.abt-sec3-left h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    color: #334257;
+    letter-spacing: 1.5px;
+	font-weight: 800;
+}
+.abt-sec3-left p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #6D8299;
+    letter-spacing: 1.5px;
+	font-weight: 800;
+    width: 95%;
+}
+.abt-sec3-right{
+    flex-basis: 55%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.abt-sec3-box{
+    background-color: #e1e8eb;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 6px 8px;
+    margin:8px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.abt-sec3-box i{
+    color: #6d8299;
+    font-size: 50px;
+    padding-left: 7%;
+}
+.abt-sec3-box p{
+    padding-left: 7%;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #548CA8;
+    letter-spacing: 1.5px;
+	font-weight: 800;
+    width: 95%;
 }
 
 /* -------------------------- services page ----------------------- */
 
 .ser-sec1{
-    background-color: yellowgreen;
-    min-height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-image:linear-gradient(to bottom, rgba(49,107,131, 0.32), rgba(49,107,131, 1)),
+    url('../img/services/alvaro-serrano-hjwKMkehBco-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 400px;
+    max-width: 1200px;
+    margin: 0 auto;
     margin-top: 90px;
+    display: flex;
 }
 
 /* -------------------------- team page ----------------------- */
 
 .te-sec1{
-    background-color: yellowgreen;
-    min-height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-image:linear-gradient(to bottom, rgba(49,107,131, 0.32), rgba(49,107,131, 1)),
+    url('../img/team-page/istockphoto-1201679769-612x612.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 400px;
+    max-width: 1200px;
+    margin: 0 auto;
     margin-top: 90px;
+    display: flex;
 }
 
 /* -------------------------- contact us page ----------------------- */
 
 .cu-sec1{
-    background-color: yellowgreen;
-    min-height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-image:linear-gradient(to bottom, rgba(49,107,131, 0.32), rgba(49,107,131, 1)),
+    url('../img/contact-us/david-veksler-HpmDAS1Dozs-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 400px;
+    max-width: 1200px;
+    margin: 0 auto;
     margin-top: 90px;
+    display: flex;
 }
+.cu-sec2{
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.contact-form{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 6px 8px;
+    width:80vw;
+    display:flex;
+    justify-content:space-between;
+    background:#e1e8eb;
+    margin:30px 0;
+  }
+  .contact-form > * {
+    width:50%;
+  }
+  .contact-form .first-container{
+    background-image:linear-gradient(to bottom, rgba(49,107,131, 0.32), rgba(49,107,131, 1)),
+    url('../img/contact-us/down.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .contact-form .first-container .info-container div{
+    margin:24px 0;
+  }
+  .contact-form .first-container .info-container div h3{
+    color:whitesmoke;
+    font-size:22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-bottom: 10px;
+  }
+  .contact-form .first-container .info-container div p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color:whitesmoke;
+  }
+  .contact-form .first-container .info-container div:first-of-type p{
+    max-width:260px;
+  }
+  .contact-form .second-container{
+    padding:30px;
+  }
+  .contact-form .second-container form{
+    display:flex;
+    flex-direction: column;
+  }
+  .contact-form .second-container h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:30px;
+    font-weight:400;
+    color:#334257;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom:20px;
+  } 
+  .contact-form .second-container form .form-group{
+    margin-bottom:10px;
+  }
+  .contact-form .second-container form .form-group *{
+     min-height: 55px;
+     border:1px solid #e6e6e6;
+     padding:0 20px;
+  }
+  .contact-form .second-container form .form-group label{
+    display:flex;
+    align-items:center;
+    width:100%;
+    border:1px solid #e6e6e6;
+    font-size:16px;
+    color:#6D8299;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    margin-top:-1px;
+  }
+  .contact-form .second-container form .form-group:first-of-type input{
+    width:50.1%;
+    margin-right:-5px;
+    font-family: 'Raleway', sans-serif;
+  }
+  .contact-form .second-container form .form-group input{
+    font-family: 'Raleway', sans-serif;
+    width:100%;
+    font-size:15px;
+    margin-top:-2px;
+  }
+  .contact-form .second-container form .form-group input::placeholder,
+  .contact-form .second-container form .form-group .textarea::placeholder{
+    color:#999;
+  }
+  .contact-form .second-container form .form-group .textarea{
+    width:100%;
+    min-height: 80px;
+    resize:none;
+    padding:10px 20px;
+    margin-top:-1px;
+  }
+  .contact-form .second-container form .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    height:50px;
+    background:#316b83;
+    color:#fff;
+    font-size:17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border:0;
+    position:relative;
+    left:calc(50% - 100px);
+    cursor:pointer;
+  }
+  .contact-form .second-container form .btn:hover{
+    background:#6d8299;
+  }
+  @media screen and (max-width:800px){
+    .contact-form{
+      width:90vw;
+    }
+  }
+  @media screen and (max-width:700px){
+    .contact-form{
+      flex-direction: column-reverse;
+    }
+    .contact-form > *{
+      width:100%;
+    }
+    .contact-form .first-container{
+      padding:40px 0;
+    }
+  }
+
+  .cu-map{
+    text-align: center;
+    margin: 3% auto;
+  }
+  .cu-map iframe{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 6px 8px;
+    width: 1200px;
+    height: 500px;
+  }
+  @media screen and (min-width:768px) and (max-width:1199px){
+    .cu-map iframe{
+      width: 750px;
+      height: 500px;
+    }
+  }
+
+  @media screen and (max-width:767px){
+    .cu-map iframe{
+      width: 350px;
+      height: 500px;
+    }
+  }
