@@ -172,6 +172,7 @@ button:focus {outline:0;}
     font-size: 16px;
     color: whitesmoke;
     letter-spacing: 1.5px;
+    text-align: justify;
 }
 .sec2-right a{
     text-decoration: none;
@@ -214,6 +215,7 @@ button:focus {outline:0;}
     font-weight: 700;
     letter-spacing: 1.5px;
     margin-bottom: 20px;
+    text-align: justify;
 }
 .sec3-left h2{
     font-family: 'Poppins', sans-serif;
@@ -266,7 +268,7 @@ button:focus {outline:0;}
     width: 90%;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 1.5px;
-    font-size: 14px;
+    font-size: 12px;
 }
 .sec3-box1{
     background-color: #334257;
@@ -553,6 +555,7 @@ button:focus {outline:0;}
     letter-spacing: 1.5px;
 	padding-bottom: 10px;
 	font-weight: 500;
+    text-align: justify;
 }
 .text-link{
     display: none;
@@ -604,7 +607,7 @@ button:focus {outline:0;}
 /* --------------------------- footer ---------------------- */
 
 footer{
-    background-image:linear-gradient(to bottom, rgba(49,107,131, 0.32), rgba(49,107,131, 1)),
+    background-image:linear-gradient(to bottom, rgba(49,107,131, 0.2), rgba(49,107,131, .7)),
     url('../img/footer/hunters-race-MYbhN8KaaEc-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -643,6 +646,7 @@ footer{
     letter-spacing: 1.5px;
 	padding-bottom: 10px;
 	font-weight: 700;
+    text-align: justify;
 }
 .footer-box h2{
     color:whitesmoke ;
@@ -718,6 +722,7 @@ footer{
     letter-spacing: 1.5px;
 	font-weight: 800;
     padding-left: 8%;
+    text-align: justify;
 }
 .abt-sec1-right{
     flex-basis: 50%;
@@ -762,6 +767,7 @@ footer{
     color: whitesmoke;
     letter-spacing: 1.5px;
 	font-weight: 800;
+    text-align: justify;
 }
 .abt-sec2-box-right{
     min-height: 200px;
@@ -811,6 +817,7 @@ footer{
     letter-spacing: 1.5px;
 	font-weight: 800;
     width: 95%;
+    text-align: justify;
 }
 .abt-sec3-right{
     flex-basis: 55%;
@@ -876,6 +883,62 @@ footer{
     margin: 0 auto;
     margin-top: 90px;
     display: flex;
+}
+
+.te-sec2{
+    max-width: 1100px;
+    min-height: 400px;
+    margin: 30px auto;
+    display: flex;
+}
+.te-left{
+    flex-basis: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.te-left img{
+    width: 350px;
+    height: 350px;
+    padding: 3%;
+    border: 5px solid #316b83;
+    box-shadow:         0px 11px 10px -5px rgba(51, 50, 50, 0.75);
+}
+.te-right{
+    flex-basis: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    transform: translateX(2%);
+}
+
+.te-right h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: #334257;
+    letter-spacing: 1.5px;
+	font-weight: 800;
+}
+
+.te-right p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: #6D8299;
+    letter-spacing: 1.5px;
+	font-weight: 800;
+    width: 95%;
+    text-align: justify;
+}
+.te-right-a a{
+    font-size: 25px;
+    margin-right: 12px;
+    color: #548ca8;
+    text-decoration: none;
+    transition: .2s ease-in-out;
+}
+.te-right-a a:hover{
+    color: #334257;
 }
 
 /* -------------------------- contact us page ----------------------- */
