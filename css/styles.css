@@ -717,7 +717,7 @@ footer{
 }
 .abt-sec1-left p{
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     color: whitesmoke;
     letter-spacing: 1.5px;
 	font-weight: 800;
@@ -831,7 +831,7 @@ footer{
     box-shadow: rgba(0, 0, 0, 0.4) 0px 6px 8px;
     margin:8px;
     width: 300px;
-    height: 200px;
+    height: 230px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -851,6 +851,7 @@ footer{
     letter-spacing: 1.5px;
 	font-weight: 800;
     width: 95%;
+    text-align: justify;
 }
 
 /* -------------------------- services page ----------------------- */
@@ -867,6 +868,112 @@ footer{
     margin: 0 auto;
     margin-top: 90px;
     display: flex;
+}
+
+.ser-sec2{
+    min-height: 400px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ser-sec2 h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    color: #334257;
+    letter-spacing: 1.5px;
+	font-weight: 800;
+}
+.ser-sec2 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #6D8299;
+    letter-spacing: 1.5px;
+	font-weight: 800;
+    width: 65%;
+    text-align: justify;
+}
+.ser-sec2-down{
+    width: 1200px;
+    margin: 10px auto 0 auto;
+    display: flex;
+}
+.ser-box{
+    flex-basis: 33.3%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.ser-box h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #e1e8eb;
+    letter-spacing: 1.5px;
+	font-weight: 800;
+    margin-top: 20px;
+}
+.ser-box p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #e1e8eb;
+    letter-spacing: 1.5px;
+	font-weight: 800;
+    width: 85%;
+    text-align: justify;
+}
+.ser-box1{
+    background-color: #316b83;
+}
+.ser-box2{
+    background-color: #548CA8;
+}
+.ser-box3{
+    background-color: #6D8299;
+}
+
+.ser-sec3{
+    background-color: #e1e8eb;
+    box-shadow: rgb(0 0 0 / 40%) 0px 6px 8px;
+    width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+.ser-sec3-inner{
+    width: 90%;
+    margin: 10px auto;
+}
+.ser-sec3-inner h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+	font-weight: 800;
+    margin-top: 20px;
+    padding-bottom: 2%;
+    color: #334257;
+}
+.ser-sec3-p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.ser-sec3-p i{
+    transform: translateY(14%);
+    color: #316b83;
+}
+.ser-sec3-p p{
+    color: #316b83;
+    text-align: justify;
+    padding-left: 1%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+	font-weight: 800;
 }
 
 /* -------------------------- team page ----------------------- */
