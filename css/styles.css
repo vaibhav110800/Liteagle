@@ -1299,14 +1299,15 @@ footer{
     margin-bottom: 15px;
 }
 .footer-box p{
+    width: 80%;
     color:whitesmoke ;
-	font-size: 18px;
+	font-size: 14px;
 	font-family: 'Raleway', sans-serif;
 	line-height: 24px;
     letter-spacing: 1.5px;
 	padding-bottom: 10px;
 	font-weight: 700;
-    text-align: justify;
+    text-align: center;
 }
 .footer-box h2{
     color:whitesmoke ;
@@ -2202,8 +2203,8 @@ footer{
     align-items: center;
 }
 .te-left img{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     padding: 3%;
     border: 5px solid #316b83;
     box-shadow:         0px 11px 10px -5px rgba(51, 50, 50, 0.75);
@@ -2263,8 +2264,8 @@ footer{
         align-items: center;
     }
     .te-left img{
-        width: 250px;
-        height: 250px;
+        width: 230px;
+        height: 230px;
         padding: 3%;
         border: 5px solid #316b83;
         box-shadow:         0px 11px 10px -5px rgba(51, 50, 50, 0.75);
@@ -2501,7 +2502,7 @@ footer{
     padding:10px 20px;
     margin-top:-1px;
   }
-  .contact-form .second-container form .btn{
+  .contact-form .second-container form button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2517,7 +2518,7 @@ footer{
     left:calc(50% - 100px);
     cursor:pointer;
   }
-  .contact-form .second-container form .btn:hover{
+  .contact-form .second-container form button:hover{
     background:#6d8299;
   }
   @media screen and (max-width:800px){

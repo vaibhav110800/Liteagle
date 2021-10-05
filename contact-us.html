@@ -83,25 +83,27 @@
             </div>
             <div class="second-container">
                 <h2>Send Us A Message</h2>
-                <form>
+                <form action="https://formspree.io/f/xnqlrbwe" method="post">
                     <div class="form-group">
                         <label for="name-input">Tell us your name*</label>
-                        <input id="name-input" type="text" placeholder="First name" required="">
-                        <input type="text" placeholder="Last name" required="">
+                        <input id="name-input" type="text" placeholder="First name" name="fname" required="">
+                        <input type="text" placeholder="Last name" name="lname" required="">
                     </div>
                     <div class="form-group">
                         <label for="email-input">Enter your email</label>
-                        <input id="email-input" type="text" placeholder="Eg. example@gmail.com" required="">
+                        <input id="email-input" type="text" placeholder="Eg. example@gmail.com" name="email"
+                            required="">
                     </div>
                     <div class="form-group">
                         <label for="phone-input">Enter phone number</label>
-                        <input id="phone-input" type="text" placeholder="Eg. +91-1234567890" required="">
+                        <input id="phone-input" type="text" placeholder="Eg. +91-1234567890" name="phone" required="">
                     </div>
                     <div class="form-group">
                         <label for="message-textarea">Message</label>
-                        <input class="textarea" id="message-textarea" placeholder="Write us a message"></input>
+                        <input class="textarea" id="message-textarea" name="message"
+                            placeholder="Write us a message"></input>
                     </div>
-                    <a class="btn">Send message</a>
+                    <button type="submit">Send Message</button>
                 </form>
             </div>
         </div>
